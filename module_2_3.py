@@ -5,7 +5,7 @@ index_elem = 0
 while index_elem < len(my_list):
     elem = my_list[index_elem]
     index_elem += 1
-    if elem < 0:
-        break
-    else:
+    if elem > 0:
         print(elem)
+    elif elem < 0:
+        break
