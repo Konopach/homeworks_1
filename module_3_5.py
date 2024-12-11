@@ -1,6 +1,6 @@
 def get_multiplied_digits(number):
     str_number = str(number)
-    str_number = str_number.replace('0', '')  # попробовал не как на вебинаре записать условие
+    str_number = str_number.replace('0', '')  # попробовал не как на вебинаре убрать 0
     first = int(str_number[0])
     if len(str_number) == 1:
         return first
