@@ -1,8 +1,11 @@
 my_list = [42, 69, 322, 13, 0, 99, -5, 9, 8, 7, -6, 5]
-x = 0
-while x < len(my_list):
-    if my_list[x] < 0:
+
+index_elem = 0
+
+while index_elem < len(my_list):
+    elem = my_list[index_elem]
+    index_elem += 1
+    if elem < 0:
         break
-    if my_list[x] > 0:
-        print(my_list[x])
-    x = x + 1
+    else:
+        print(elem)
