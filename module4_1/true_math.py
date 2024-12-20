@@ -5,3 +5,4 @@ def true_divide(first, second):
         return inf
     else:
         result = first / second
+        return result
